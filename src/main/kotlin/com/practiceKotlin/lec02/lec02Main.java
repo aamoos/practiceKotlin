@@ -1,6 +1,6 @@
 package com.practiceKotlin.lec02;
 
-public class Main {
+public class lec02Main {
 
     public static void main(String[] args) {
 

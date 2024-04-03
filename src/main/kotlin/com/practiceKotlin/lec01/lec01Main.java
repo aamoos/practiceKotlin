@@ -2,10 +2,7 @@ package com.practiceKotlin.lec01;
 
 import com.practiceKotlin.lec02.Person;
 
-import java.util.Arrays;
-import java.util.List;
-
-public class Main {
+public class lec01Main {
     public static void main(String[] args) {
         long number1 = 10L;
         final long number2 = 10L;

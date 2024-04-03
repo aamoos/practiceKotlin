@@ -2,7 +2,7 @@ package com.practiceKotlin.lec03;
 
 import com.practiceKotlin.lec02.Person;
 
-public class main {
+public class lec03Main {
     public static void main(String[] args) {
 
     }
