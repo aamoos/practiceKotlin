@@ -1,4 +1,4 @@
-package com.practiceKotlin.lec07
+package com.practiceKotlin.lec08
 
 fun main(){
     repeat("Hello World", useNewLine = false)
