@@ -1,0 +1,5 @@
+package com.practiceKotlin.lec11
+
+fun isDirectoryPath(path: String): Boolean {
+    return path.endsWith("/")
+}
