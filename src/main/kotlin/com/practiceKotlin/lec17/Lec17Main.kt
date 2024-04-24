@@ -21,12 +21,8 @@ fun main(){
     filterFruits(fruits, isApple)
 }
 
-private fun filterFruits(fruits: List<Fruit>, filter: (Fruit) -> Boolean): List<Fruit> {
-    val results = mutableListOf<Fruit>()
-    for(fruit in fruits){
-        if(filter(fruit)){
-            results.add(fruit)
-        }
-    }
-    return results
+private fun filterFruits(
+    fruits: List<Fruit>, filter: (Fruit) -> Boolean
+): List<Fruit> {
+    return fruits.filter(filter)
 }
